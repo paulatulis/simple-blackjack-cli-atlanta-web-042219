@@ -36,10 +36,12 @@ def hit?(current_card_total)
   if answer == 'h'
     deal_card
     display_card_total
-    if answer != 's' || answer !='h'
+    elsif answer != 's' || answer !='h'
       invalid_command
-  # code hit? here
+      prompt_user
+      current_card_total
 end
+end 
 
 def invalid_command
   puts "Please enter a valid command"
