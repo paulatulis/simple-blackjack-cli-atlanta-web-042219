@@ -16,11 +16,11 @@ def prompt_user
 end
 
 def get_user_input
-  answer = gets
+  answer = gets.chomp
 end
 
-def end_game
-  # code #end_game here
+def end_game(card_total)
+
 end
 
 def initial_round
