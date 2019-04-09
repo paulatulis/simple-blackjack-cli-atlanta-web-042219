@@ -24,8 +24,8 @@ puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
 def initial_round
- deal_card + deal_card
- display_card_total(card_total)
+ deal_card + deal_card = current_card_total
+ puts display_card_total(card_total)
  
 end
 
